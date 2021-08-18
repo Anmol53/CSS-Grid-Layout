@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #effad3;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 500;
+  color: #ec5858;
+}
+
+.home-page {
+  display: grid;
+  grid-template-rows: 20% auto;
+  grid-template-columns: repeat(12, 1fr);
+  height: 90vh;
+  place-content: center;
+}
+
+.home-page h1 {
+  grid-column: 4 / 10;
+}
+.home-page div {
+  grid-column: 6 / 8;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
